@@ -1,13 +1,8 @@
-# cardiomegaly-CNN-transfer-learning
-Deep learning models for early-stage cardiomegaly detection from chest X-ray images using CNN, Inception, DenseNet-169, and ResNet-50 with advanced preprocessing techniques (CLAHE, BM3D).
-
-
-## Early-stage Cardiomegaly Detection from X-ray Images
+## Cardiomegaly detection and classification from X-ray images using CNN and transfer learning
 
 This repository contains the source code and experimental notebooks for the research paper:
 
-**Title:** _Early-stage cardiomegaly detection and classification from X-ray images using convolutional neural networks and transfer learning_  
-**Authors:** Aleka Melese Ayalew, Belay Enyew, Yohannes Agegnehu Bezabh, Biniyam Mulugeta Abuhayi, **Girma Sisay Negashe**  
+**Title:** _Early-stage cardiomegaly detection and classification from X-ray images using convolutional neural networks and transfer learning_   
 **Published in:** [Intelligent Systems with Applications, Elsevier (2024)](https://www.sciencedirect.com/science/article/pii/S2667305324001273)  
 **DOI:** [10.1016/j.iswa.2024.200453](https://doi.org/10.1016/j.iswa.2024.200453)
 
@@ -23,7 +18,7 @@ To detect and classify early-stage cardiomegaly from chest X-ray images using de
 - `Final_DenseNet169_Cardiomegal.ipynb`: DenseNet-169 with enhanced preprocessing (BM3D, CLAHE).
 - `Inception_After_preprocessing_Cardiomegal_Detection.ipynb`: Inception-based model after preprocessing.
 
-### Key Methods
+### Key methods used
 
 - **Preprocessing:** CLAHE for contrast enhancement and BM3D for noise reduction.
 - **Models:** CNN, VGG19, Inception, DenseNet-169, and ResNet-50.

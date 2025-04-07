@@ -32,11 +32,11 @@ To detect and classify early-stage cardiomegaly from chest X-ray images using de
 - Grad-CAM visualizations (see Fig. 13 in the paper) reveal model attention areas.
 - Confusion matrices demonstrate very low misclassification rates across all models.
 
-<p align="center">
+<p align="center"> Visualization of significant regions in the CXR images using Grad-Cam
   <img src="paper_gradcam_visualization.jpg" alt="Grad-CAM Visualization" width="500"/>
 </p>
 
-<p align="center">
+<p align="center"> Confusion matrix of the different proposed cardiomegaly detection models
   <img src="paper_confusion_matrix.jpg" alt="Confusion Matrices" width="500"/>
 </p>
 
